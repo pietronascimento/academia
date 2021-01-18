@@ -1,0 +1,51 @@
+/**
+ * @(#) ps-panel.css 1.0 12/11/2020
+ *
+ * Copyright 2014 P Softwares, Todos os direitos reservados. PROPRIEDADE P
+ * Softwares/CONFINDECIAL. Uso sujeito a condicoes de licenca.
+ */
+
+/**
+ * @version 1.0 12/11/2020
+ * @author Pietro do Nascimento
+ */
+.psoftwares-style-bodysport .ps-panel-layout {
+    position: absolute;
+    
+    border: 1px solid #CCCCCC;
+    box-shadow: none;    
+    border-radius: 0px;
+    
+    background: white;
+    height: auto;
+    width: auto;
+}
+
+/*----------------------------------------------------------------------------*/
+/* -- >>> PANEL SYSTEM
+/*----------------------------------------------------------------------------*/
+.psoftwares-style-bodysport .v-panel {    
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;    
+    
+    background: transparent;    
+    height: auto;
+    width: auto;
+}
+
+.psoftwares-style-bodysport .v-panel-well > div > [class*='-caption'] {
+    padding-top: 3px;
+    
+    color: #CCCCCC;
+    font-weight: bold;
+    
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: none;
+    border-radius: 0px;
+    
+    background: #333333;    
+    height: 35px;
+}

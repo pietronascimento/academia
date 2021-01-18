@@ -1,0 +1,54 @@
+/**
+ * @(#) psoftwares-style-bodysport 1.0 12/11/2020
+ *
+ * Copyright 2014 P Softwares, Todos os direitos reservados. PROPRIEDADE P
+ * Softwares/CONFINDECIAL. Uso sujeito a condicoes de licenca.
+ */
+@import "valo-reindeer.css";
+@import "accordion/ps-accordion.css";
+@import "panel/ps-panel.css";
+@import "tabsheet/ps-tabsheet.css";
+@import "window/ps-window.css";
+
+@font-face {
+    font-family: Vaadin-Icons;
+    font-weight: normal;
+    font-style: normal;
+    src: url(fonts/Vaadin-Icons.eot);
+    src: url(fonts/Vaadin-Icons.eot?#iefix) format("embedded-opentype"), 
+        url(fonts/Vaadin-Icons.woff) format("woff"), 
+        url(fonts/Vaadin-Icons.ttf) format("truetype"), 
+        url(fonts/Vaadin-Icons.svg#Vaadin-Icons) format("svg");
+}
+
+.Vaadin-Icons {
+    font-family: Vaadin-Icons;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    text-align: center;
+}
+
+/**
+ * @version 1.0 12/11/2020
+ * @author Pietro do Nascimento
+ */
+.psoftwares-style-bodysport {
+}
+
+/*----------------------------------------------------------------------------*/
+/* -- >>> MARGIN LEFT
+/*----------------------------------------------------------------------------*/
+.psoftwares-style-bodysport .v-margin-left {
+    padding: 5px 5px 5px 5px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* -- >>> SPACING
+/*----------------------------------------------------------------------------*/
+.psoftwares-style-bodysport .v-spacing {
+    width: 5px;
+    height: 5px;
+}

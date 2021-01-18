@@ -1,0 +1,94 @@
+/**
+ * @(#) ps-window.css 1.0 12/11/2020
+ *
+ * Copyright 2014 P Softwares, Todos os direitos reservados. PROPRIEDADE P
+ * Softwares/CONFINDECIAL. Uso sujeito a condicoes de licenca.
+ */
+
+/**
+ * @version 1.0 12/11/2020
+ * @author Pietro do Nascimento
+ */
+.psoftwares-style-bodysport .ps-window-layout {
+    position: absolute;
+    
+    box-shadow: none;
+    
+    border-radius: 0px;
+    border: 1px solid #CCCCCC;
+    
+    background: transparent;
+    height: auto;
+    width: auto;
+}
+
+/*----------------------------------------------------------------------------*/
+/* -- >>> WINDOW SYSTEM
+/*----------------------------------------------------------------------------*/
+.psoftwares-style-bodysport .v-window {
+    padding: 5px 5px 5px 5px;
+    
+    box-shadow: none;
+    border: 1px solid #CCCCCC;  
+    border-radius: 3px 3px 3px 3px; 
+    
+    background: #333333;
+}
+
+.psoftwares-style-bodysport .v-window-outerheader::after {
+    border: none;
+}
+
+/* painel do centro (window) */
+.psoftwares-style-bodysport .v-window-contents > .v-scrollable::before {    
+    content: "";
+    border: none;
+}
+
+/* titulo (window) */
+.psoftwares-style-bodysport .v-window-header {
+    padding-top: 3px;
+    
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+.psoftwares-style-bodysport .v-window-closebox {
+    top: 3px;
+    right: 5px;
+    padding-left: 3px;
+    
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.psoftwares-style-bodysport .v-window-closebox::before {
+    /*content: "\00d7";*/
+    color: #CCCCCC;
+}
+
+.psoftwares-style-bodysport .v-window-maximizebox::before {
+    /*content: "+";*/
+    color: #CCCCCC;
+}
+
+.psoftwares-style-bodysport .v-window-maximizebox, 
+.psoftwares-style-bodysport .v-window-restorebox {
+    top: 3px;
+    right: 31px;
+    padding-left: 0px;
+    
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.psoftwares-style-bodysport .v-window-closebox, 
+.psoftwares-style-bodysport .v-window-maximizebox, 
+.psoftwares-style-bodysport .v-window-restorebox {
+    background-color: transparent;
+}
+
+.psoftwares-style-bodysport .v-window-maximizebox + .v-window-closebox, 
+.psoftwares-style-bodysport .v-window-restorebox + .v-window-closebox {
+    border-radius: 4px 4px 4px 4px;
+}

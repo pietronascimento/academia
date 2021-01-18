@@ -1,0 +1,55 @@
+/*
+ * @(#) ps-tabsheet.css 1.0 24/11/2020
+ *
+ * Copyright 2014 P Softwares, Todos os direitos reservados. PROPRIEDADE P
+ * Softwares/CONFINDECIAL. Uso sujeito a condicoes de licenca.
+ */
+
+/**
+ * @version 1.0 24/11/2020
+ * @author Pietro do Nascimento
+ */
+
+/*----------------------------------------------------------------------------*/
+/* -- >>> TABSHEET SYSTEM
+/*----------------------------------------------------------------------------*/
+.psoftwares-style-bodysport .v-tabsheet-framed > .v-tabsheet-tabcontainer .v-tabsheet-tabitem .v-caption {
+    color: #416AA3;
+}
+
+.psoftwares-style-bodysport .v-tabsheet-framed.padded-tabbar > .v-tabsheet-tabcontainer {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;    
+    
+    background: #333333;
+}
+
+.psoftwares-style-bodysport .v-tabsheet-framed > .v-tabsheet-tabcontainer .v-tabsheet-tabitem .v-caption {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC; 
+    
+    color: #CCCCCC;
+    background: #999999;
+}
+
+.psoftwares-style-bodysport .v-tabsheet-framed > .v-tabsheet-tabcontainer .v-tabsheet-tabitem .v-caption:hover {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;  
+
+    background: #666666;
+}
+
+.psoftwares-style-bodysport .v-tabsheet-framed > .v-tabsheet-tabcontainer .v-tabsheet-tabitem-selected .v-caption {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    
+    color: #CCCCCC;
+    font-weight: bold;
+    
+    background: #666666;
+}
+
