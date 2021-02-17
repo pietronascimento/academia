@@ -1,5 +1,5 @@
 /**
- * @(#) GridAluno.java 1.0 12/01/2021
+ * @(#) GridProfessor.java 1.0 12/02/2021
  *
  * Copyright 2014 Pietro do Nascimento, Todos os direitos reservados. 
  * PROPRIEDADE Pietro do Nascimento/CONFINDECIAL. 
@@ -14,20 +14,20 @@ import com.vaadin.ui.Button;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.themes.ValoTheme;
 
-import br.com.bodysportacademia.entity.EntityAluno;
+import br.com.bodysportacademia.entity.EntityProfessor;
 import br.com.bodysportacademia.util.UtilFontIcon;
 import br.com.bodysportacademia.util.ui.UIGrid;
-import br.com.bodysportacademia.window.WindowAluno;
+import br.com.bodysportacademia.window.WindowProfessor;
 
 /**
- * @version 1.0 12/01/2021
+ * @version 1.0 12/02/2021
  * @author Pietro do Nascimento
  */
-public class GridAluno extends UIGrid<EntityAluno> {
-	private static final long serialVersionUID = -4513471891422149695L;
+public class GridProfessor extends UIGrid<EntityProfessor> {
+	private static final long serialVersionUID = 5755334649290085098L;
 
-	public GridAluno() {
-		super.setItems(new ArrayList<EntityAluno>());		
+	public GridProfessor() {
+		super.setItems(new ArrayList<EntityProfessor>());		
 		super.addColumn(a -> a.getCpf())
 			.setCaption("CPF")
 			.setWidth(120);			
@@ -41,26 +41,26 @@ public class GridAluno extends UIGrid<EntityAluno> {
 			.setWidth(50);
 	}
 	
-	public boolean exists(EntityAluno e_aluno) {
-		for (EntityAluno a : super.getItems()) {
-			if (a.getCpf().equals(e_aluno.getCpf())) {
+	public boolean exists(EntityProfessor e_professor) {
+		for (EntityProfessor p : super.getItems()) {
+			if (p.getCpf().equals(e_professor.getCpf())) {
 				return true;
 			}
 		}
 		return false;
 	}
 	
-	private Button showWindow(EntityAluno e_aluno) {		
+	private Button showWindow(EntityProfessor e_professor) {		
 		Button button = new Button(UtilFontIcon.REFRESH);
 		button.addStyleName(ValoTheme.BUTTON_ICON_ONLY);
 		button.addStyleName(ValoTheme.BUTTON_BORDERLESS);
-		button.addClickListener(e -> window(e_aluno));		
+		button.addClickListener(e -> window(e_professor));		
 		return button;
 	}
 	
-	private void window(EntityAluno e_aluno) {
-		WindowAluno w_aluno = new WindowAluno(e_aluno);
-		w_aluno.addCloseListener(e -> setItem(e_aluno));
-		UI.getCurrent().addWindow(w_aluno);
+	private void window(EntityProfessor e_professor) {
+		WindowProfessor w_professor = new WindowProfessor(e_professor);
+		w_professor.addCloseListener(e -> setItem(e_professor));
+		UI.getCurrent().addWindow(w_professor);
 	}
 }
