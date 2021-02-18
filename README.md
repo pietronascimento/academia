@@ -22,4 +22,4 @@ Caso venha a utilizar o sistema e encontrar algum erro no codigo por favor entre
 # Sober a utilização do código para fins pessoais #
 
 Caso venha a utilizar o código e fazer alterações no mesmo, por favor colabore com o projeto, do mesmo jeito que você obteve free, tenha 
-consciência que outros também irão precisar da sua ajuda. ;)
+consciência que outros também precisam da sua ajuda. ;)
