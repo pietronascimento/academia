@@ -1,3 +1,9 @@
+# Acesse a demostração em: #
+
+http://www.bodysportacademia.com.br/demo/<br><br>
+login: <b>pietronascimento@gmail.com</b><br>
+senha: <b>12345678</b>
+
 # Sistema para academia #
 
 Este sistema foi desenvolvido para academia <b>BodySport</b> e está em fase de desenvolvimento.
